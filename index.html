@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <title>Weather App</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+<div class="container  d-flex justify-content-center "  id="con">
+
+    <div class="card" style="width: 18rem;">
+       
+        <div class="card-body">
+          <h5 class="card-title">Enter a City Name</h5>
+          <p class="card-text"> 
+            <input type="text" name="city" placeholder="enter city name" id="viewcity">
+          </p>
+          <!-- <input type="radio" name="radb" >view in Faherneit -->
+          <button class="btn btn-primary" onclick="fun()">view in celsius</button>
+          <br>
+          <br>
+          <button class="btn btn-primary" onclick="fun1()">view in Faherneit</button>
+       
+       <!-- <input type="radio" name="radb1">view in Faherneit -->
+
+        </div>
+      </div>
+      
+      
+
+</div>
+<div class="container  d-flex justify-content-center " id="viewmain" >
+
+    <div class="card" style="width: 20rem;">
+       
+        <div class="card-body">
+          <h5 class="card-title" id="view">Welcome</h5>
+          <p class="card-text" id="viewdescrip"> 
+          
+          </p>
+         
+        
+        </div>
+      </div>
+      
+      
+
+</div>
+
+    <script src="./script.js">
+
+    </script>
+</body>
+</html>

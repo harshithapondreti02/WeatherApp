@@ -1,0 +1,15 @@
+body{
+    height: 780px;
+    background-image: url(background.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+ }
+#con{
+position: absolute;
+top: 28%;
+}
+#viewmain{
+    position: absolute;
+    top: 55%;
+}
